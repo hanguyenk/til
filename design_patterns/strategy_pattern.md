@@ -1,6 +1,6 @@
 ## Strategy Pattern
 
-In `Strategy pattern`, a class behavior or its algorithm can be changed at run time. This type of design pattern comes under behavior pattern.
+In `Strategy pattern`, a class behavior or its algorithm can be changed at run time. This type of design pattern comes under `behavior pattern`.
 
 In `Strategy pattern`, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. The strategy object changes the executing algorithm of context object.
 
@@ -23,7 +23,7 @@ Create concrete classes implementing the same interface.
 ```ruby
 # operation_add.rb
 
-class OperationAdd
+class OperationAdd < OperationStrategy
   def do_operation(num1, num2)
     num1 + num2
   end
@@ -33,7 +33,7 @@ end
 ```ruby
 # operation_subtract.rb
 
-class OperationSubtract
+class OperationSubtract < OperationStrategy
   def do_operation(num1, num2)
     num1 - num2
   end
@@ -43,7 +43,7 @@ end
 ```ruby
 # operation_mulitply.rb
 
-class OperationMultiply
+class OperationMultiply < OperationStrategy
   def do_operation(num1, num2)
     num1 * num2
   end
