@@ -82,5 +82,3 @@ shape2.draw
 shape3 = shape_factory.get_shape('square')
 shape3.draw
 ```
-
-
