@@ -9,3 +9,4 @@
 
 ### Creational patterns
 - [x] [Factory](https://github.com/khandz/til/blob/master/design_patterns/factory_pattern.md)
+- [x] [Singleton](https://github.com/khandz/til/blob/master/design_patterns/singleton_pattern.md)
