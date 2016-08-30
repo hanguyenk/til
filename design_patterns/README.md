@@ -8,6 +8,7 @@
 - [x] [Strategy](https://github.com/khandz/til/blob/master/design_patterns/strategy_pattern.md)
 - [x] [Observer](https://github.com/khandz/til/blob/master/design_patterns/observer_pattern.md)
 - [x] [Chain of responsibility](https://github.com/khandz/til/blob/master/design_patterns/chain_of_responsibility_pattern.md)
+- [x] [Template](https://github.com/khandz/til/blob/master/design_patterns/template_pattern.md)
 
 ### Creational patterns
 - [x] [Factory](https://github.com/khandz/til/blob/master/design_patterns/factory_pattern.md)
