@@ -1,5 +1,9 @@
 ## Sublime installation guide
 
+### Install Package Control
+
+Follow this instruction: https://packagecontrol.io/installation
+
 ### Install Packages
 
 Useful packges should be installed:
@@ -13,6 +17,8 @@ Useful packges should be installed:
 - Material Theme - Appbar
 
 ### User Settings
+
+My current settings:
 
 ```json
 {
@@ -43,6 +49,7 @@ Useful packges should be installed:
   "trim_trailing_white_space_on_save": true,
   "ensure_newline_at_eof_on_save": true,
   "highlight_line": true,
-  "rulers": [80]
+  "rulers": [80],
+  "bold_folder_labels": true
 }
 ```
