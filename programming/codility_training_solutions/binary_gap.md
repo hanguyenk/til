@@ -26,21 +26,23 @@ Using binary shift.
 
 ```ruby
 def solution(n)
-  max_gap = 0
   current_gap = 0
+  max_gap = 0
+  found_one = false
 
   loop do
     break if n == 0
 
     if (n & 1) == 1
-      if current_gap != 0
+      if found_one
         max_gap = [max_gap, current_gap].max
-        current_gap = 0
+      else
+        found_one = true
       end
+      current_gap = 0
     else
       current_gap += 1
     end
-
     n = n >> 1
   end
 
