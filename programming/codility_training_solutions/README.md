@@ -8,6 +8,6 @@
 - [x] [CyclicRotation](https://github.com/khandz/til/blob/master/programming/codility_training_solutions/cyclic_rotation.md)
 
 ### Time Complexity
-- [ ] TapeEquilibrium
+- [x] [TapeEquilibrium](https://github.com/khandz/til/blob/master/programming/codility_training_solutions/tape_equilibrium.md)
 - [ ] FrogJmp
 - [ ] PermMissingElem
