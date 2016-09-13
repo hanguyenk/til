@@ -7,3 +7,4 @@
 - [ ] Liskov substitution
 - [ ] Interface segregation
 - [ ] Dependency inversion
+- [ ] Concurrent vs Parallel(https://github.com/khandz/til/blob/master/programming/principles_and_concepts/concurrent_vs_parallel.md)
