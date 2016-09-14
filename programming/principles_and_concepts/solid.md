@@ -9,10 +9,10 @@ SOLID là tập hợp các chữ cái đầu của 5 nguyên tắc lập trình 
 > Một class có thể thoải mái mở rộng nhưng không được sửa đổi.
 
 - **L**iskov substitution principle
-> Object của class cha có thể bị thay thế bởi instance của các lớp con mà không làm thay đổi tính đúng đắn của chương trình
+> Object của class cha có thể bị thay thế bởi instance của các lớp con mà không làm thay đổi tính đúng đắn của chương trình.
 
 - **I**nterface segregation principle
-> Nhiều interface cụ thể tốt hơn là một interface chung chung
+> Nhiều interface cụ thể tốt hơn là một interface chung chung.
 
 - **D**ependency inversion principle
-> Mọi thứ nên phụ thuộc vào abstractions thay vì concretions
+> Mọi thứ nên phụ thuộc vào abstractions thay vì concretions.
