@@ -3,7 +3,7 @@ def binary_search(list, item)
   high = list.size - 1
 
   while low <= high
-    mid = (low + high)
+    mid = (low + high) / 2
     guess = list[mid]
     return mid if guess == item
     if guess > item
