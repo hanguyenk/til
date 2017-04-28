@@ -1,0 +1,4 @@
+- When you work with Dijkstra's algorithm, each edge in the graph has a number associated with it. These are called `weights`.
+- A graph with weights is called a `weighted graph`. A graph without weights is called an `unweighted graph`
+- To calculate the shortest path in a `unweighted graph`, use `breadth-first search`, to calculate the shortest part in a `weighted graph`, use `Dijkstra's algorithm`
+- `Dijkstra's algorithm` only works with `directed acyclic graphs`
